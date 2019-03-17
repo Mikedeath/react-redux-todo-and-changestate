@@ -13,7 +13,7 @@ const routing = (
   <Router>
    <Link to="/">Home</Link>
    <br></br>
-    <Link to="/project-code-name">ProjectCodeName</Link>
+    <Link to="/project-code-name">Click me to see some projects code names</Link>
     <Switch>
       <Route  path="/" exact component={Home}/>
       <Route path="/project-code-name" component={ProjectCodeName}/>
